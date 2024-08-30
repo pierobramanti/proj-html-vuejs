@@ -8,18 +8,20 @@ export default {
     <div>
         <div class="container-full">
             <div class="row">
-                <div class="col-12">
-                    <div class="col-4">
-
+                <div class="col-12 d-flex px-4 py-4">
+                    <div class="col-3 border bg-color">
+                        <img src="../assets/img/footer-logo.png" alt="">
+                        <p class="lh-lg"> We are specialist in the costruction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</p>
+                        <button class="px-4 text-uppercase" href="#">Learn more</button>
                     </div>
-                    <div class="col-4">
-                        
+                    <div class="col-3 border">
+                        <p>ciao</p>
                     </div>
-                    <div class="col-4">
-                        
+                    <div class="col-3 border">
+                        <p>ciao</p>
                     </div>
-                    <div class="col-4">
-                        
+                    <div class="col-3 border">
+                        <p>ciao</p>
                     </div>
                 </div>
                 
@@ -52,13 +54,34 @@ export default {
     background-color: $black;
 }
 
+.bg-color{
+    background-color: $black;
+}
+
 h5 {
-    font-size: 12px;
+    font-size: 10px;
     color: $light_black;
+}
+
+p{
+    color: $light_black; 
 }
 
 a{
     color:$light_black;
 }
+
+button {
+    background-color: $yellow;
+    padding: 5px 40px;
+    border: none;
+    outline: none;
+
+    &:hover {
+        background-color: $light_black;
+        color: $grey;
+    }
+}
+
 
 </style>
