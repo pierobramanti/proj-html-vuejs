@@ -18,7 +18,7 @@ export default {
     <div class="container">
         <div class="row">
             <div class="col-12 border">
-                <div class="d-flex justify-content-between align-items-center px-4 py-4">
+                <div class="d-flex justify-content-between align-items-center px-4 py-3">
                     <img class="img-fluid border" src="../assets/img/construction_logo.png" alt="Avada construction Logo">
                     <ul class="list-unstyled d-flex align-items-center">
                         <li v-for="item in menuItems" :key="item.label" class="px-4" :class="{ 'active-class': item.isActive }">
