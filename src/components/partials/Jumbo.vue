@@ -18,7 +18,7 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../style/partials/vars" as *;
 
 .bg-jumbo {
