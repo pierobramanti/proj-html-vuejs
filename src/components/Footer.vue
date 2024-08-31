@@ -9,19 +9,46 @@ export default {
         <div class="container-full">
             <div class="row">
                 <div class="col-12 d-flex px-4 py-4">
-                    <div class="col-3 border bg-color">
+                    <div class="learn-more col-3 border bg-color">
                         <img src="../assets/img/footer-logo.png" alt="">
                         <p class="lh-lg"> We are specialist in the costruction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</p>
                         <button class="px-4 text-uppercase" href="#">Learn more</button>
                     </div>
-                    <div class="col-3 border">
-                        <p>ciao</p>
+                    <div class="col-3 tweets border">
+                        <h4>Latest tweets</h4>
+                        <div class="col-12 d-flex">
+                            <div class="col-2">
+                                <img class="img-fluid" src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+                            </div>
+                            <div class="col-10">
+                               <div class="d-flex justify-content-between">
+                                <h4 class="fw-bold fs-6">ThemeFusion</h4>
+                                <a class="mx-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                               </div>
+                               <div>
+                                <h6>@Theme_Fusion</h6>
+                                <p class="fonts-9 lh-sm fw-bolder "> Do you need sublime WordPress hosting for your next website? Take advantage of exclusive parteners offers that we have secured just for you, & launch your site in seconds with <a href=""> #avada</a> on WP Engine hosting & get 30% Off this Black Friday <a href=""> bit.ly/3kjLLE2 #BlackFriday2020</a></p>
+                               </div>
+                               <img class="img-fluid" src="../assets/img/En2TRxLW4AEiWUN.jpeg" alt="WP Engigneer">
+                               <div class="d-flex justify-content-between">
+                                <div>
+                                    <a class="mx-2" href="#"><i class="fa-regular fa-heart"></i></a>
+                                    <a class="mx-2" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                                </div>
+                                <p>22h</p>
+                               </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-3 border">
-                        <p>ciao</p>
+                        <h4>Contact us today</h4>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-globe mx-2"></i>
+                            <p class="fonts-10 fw-bolder lh-lg"> Corporate Location 1600 Amphitheatre Parkway London Wc1 1Ba</p>
+                        </div>
                     </div>
                     <div class="col-3 border">
-                        <p>ciao</p>
+                        <h4>Find us</h4>
                     </div>
                 </div>
                 
@@ -65,10 +92,15 @@ h5 {
 
 p{
     color: $light_black; 
+    a{
+        color: blue;
+    }
 }
 
 a{
+   i{
     color:$light_black;
+   }
 }
 
 button {
@@ -82,6 +114,5 @@ button {
         color: $grey;
     }
 }
-
 
 </style>
