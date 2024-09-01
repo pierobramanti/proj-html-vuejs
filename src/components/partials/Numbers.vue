@@ -8,8 +8,19 @@ export default {
     <div class="bg-numbers position-relative">
         <div class="container h-100 d-flex align-items-center justify-content-center">
             <div class="row min-vh-100 d-flex justify-content-center align-items-center">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center text-center">
-                    
+                <div class="col-12 d-flex justify-content-center align-items-center text-center gap-3">
+                    <div class="col-4 border">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <div class="col-4 border">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="col-4 border">
+                        <i class="fa-solid fa-users-line"></i>
+                    </div>
+                    <div class="col-4 border">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
                 </div>
             </div>
         </div>
