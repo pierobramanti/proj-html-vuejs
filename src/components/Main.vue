@@ -6,6 +6,7 @@ import Latest from "./partials/Latest.vue";
 import Carousel from './partials/Carousel.vue';
 import Core from "./partials/Core.vue";
 import Recent from "./partials/Recent.vue";
+import Numbers from './partials/Numbers.vue';
     export default {
         components: {
             Jumbo,
@@ -15,6 +16,7 @@ import Recent from "./partials/Recent.vue";
             Carousel,
             Core,
             Recent,
+            Numbers,
 
 
     }
@@ -24,6 +26,7 @@ import Recent from "./partials/Recent.vue";
 <template>
     <div class="main">
         <Jumbo />
+        <Numbers />
         <Recent />
         <Core />
         <Carousel />
