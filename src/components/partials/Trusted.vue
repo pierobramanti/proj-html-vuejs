@@ -11,7 +11,7 @@ export default {
             <div class="col-12 text-center mb-4 mt-4">
                 <h3 class=" fs-1 fw-lighter">Trusted Partners</h3>
                 <hr class="fw-bolder mt-2 mb-4">
-                <h4 class="fonts-10 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h4>
+                <h4 class="fonts-10 mt-2 mb-4 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h4>
             </div>
             <div class="d-flex align-items-center justify-content-around mt-2 mb-4">
                 <div class="d-flex align-items-center">
