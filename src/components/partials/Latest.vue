@@ -11,7 +11,7 @@ export default {
                 <div class="col-12 text-center mb-4 mt-4">
                     <h3 class="fs-1 fw-lighter">Latest News</h3>
                     <hr class="fw-bolder mt-2 mb-4">
-                    <h4 class="fonts-10 mt-2 mb-4 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h4>
+                    <h4 class="fs-6 mt-2 mb-4 lh-lg text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h4>
                 </div>
                 <div class="col-12 d-flex justify-content-center gap-4">
                     <div class="custom-card">
