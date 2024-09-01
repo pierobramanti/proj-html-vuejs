@@ -1,11 +1,6 @@
 <script>
-import { trusted } from '../data/components';
 export default {
-    data() {
-        return {
-            trusted
-        }
-    }
+    
 }
 </script>
 
@@ -13,27 +8,27 @@ export default {
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center border">
+            <div class="col-12 text-center mb-4 mt-4">
                 <h3 class=" fs-1 fw-lighter">Trusted Partners</h3>
-                <hr class="fw-bolder">
-                <h4 class="fonts-9 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto, <br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci aut, quod fugiat quisquam dolorem minus enim?</h4>
+                <hr class="fw-bolder mt-2 mb-4">
+                <h4 class="fonts-10 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h4>
             </div>
-            <div class="d-flex align-items-center justify-content-around mt-3">
+            <div class="d-flex align-items-center justify-content-around mt-2 mb-4">
                 <div class="d-flex align-items-center">
                     <a class="img-fluid me-3">
-                        <img src="../../assets/img/home-logo11-219096700-320x202.png" alt="home logo 1">
+                        <img class="w-75" src="../../assets/img/home-logo11-219096700-320x202.png" alt="home logo 1">
                     </a>
                     <a class="w_square me-3">
-                        <img src="../../assets/img/home-logo2-219096700-320x202.png" alt="home logo 2">
+                        <img class="w-75" src="../../assets/img/home-logo2-219096700-320x202.png" alt="home logo 2">
                     </a>
                     <a class="w_square me-3">
-                        <img src="../../assets/img/home-logo10-219096700-320x202.png" alt="home logo 1">
+                        <img class="w-75" src="../../assets/img/home-logo10-219096700-320x202.png" alt="home logo 1">
                     </a>
                     <a class="w_square me-3">
-                        <img src="../../assets/img/home-logo1-219096700-320x202.png" alt="home logo 1">
+                        <img class="w-75" src="../../assets/img/home-logo1-219096700-320x202.png" alt="home logo 1">
                     </a>
                     <a class="w_square me-3">
-                        <img src="../../assets/img/home-logo9-219096700-320x202.png" alt="home logo 1">
+                        <img class="w-75" src="../../assets/img/home-logo9-219096700-320x202.png" alt="home logo 1">
                     </a>
                 </div>
             </div>
@@ -47,7 +42,7 @@ export default {
 hr {
     color: $yellow;
     width: 160px;
-    border: solid 1px;
+    border: solid 2px;
     margin: 0 auto;
 }
 
