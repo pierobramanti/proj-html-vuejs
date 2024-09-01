@@ -4,6 +4,7 @@ import Bottom from "./partials/Bottom.vue";
 import Trusted from "./partials/Trusted.vue";
 import Latest from "./partials/Latest.vue";
 import Carousel from './partials/Carousel.vue';
+import Core from "./partials/Core.vue";
     export default {
         components: {
             Jumbo,
@@ -11,6 +12,7 @@ import Carousel from './partials/Carousel.vue';
             Trusted,
             Latest,
             Carousel,
+            Core,
 
 
     }
@@ -20,6 +22,7 @@ import Carousel from './partials/Carousel.vue';
 <template>
     <div class="main">
         <Jumbo />
+        <Core />
         <Carousel />
         <Latest />
         <Trusted />
