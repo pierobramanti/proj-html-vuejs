@@ -17,18 +17,26 @@ export default {
        </div>
        <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="col-3">
-
+            <div class="col-12 d-flex">
+                <div class="col-3 flex-column align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                    <hr class="fw-bolder mb-3">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
                 </div>
                 <div class="col-3">
-                    
+                    <i class="fa-solid fa-gear"></i>
+                    <hr class="fw-bolder mb-3">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
                 </div>
                 <div class="col-3">
-                    
+                    <i class="fa-solid fa-users-line"></i>
+                    <hr class="fw-bolder mb-3">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
                 </div>
                 <div class="col-3">
-                    
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <hr class="fw-bolder mb-3">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
                 </div>
             </div>
         </div>
