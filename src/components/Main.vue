@@ -31,4 +31,6 @@ import Core from "./partials/Core.vue";
 </template>
 
 <style lang="scss" scoped>
+
+
 </style>
