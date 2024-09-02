@@ -8,6 +8,7 @@ import Core from "./partials/Core.vue";
 import Recent from "./partials/Recent.vue";
 import Numbers from './partials/Numbers.vue';
 import Modern from "./partials/Modern.vue";
+import Banner from './partials/Banner.vue';
     export default {
         components: {
             Jumbo,
@@ -19,6 +20,7 @@ import Modern from "./partials/Modern.vue";
             Recent,
             Numbers,
             Modern,
+            Banner,
 
 
     }
@@ -28,6 +30,7 @@ import Modern from "./partials/Modern.vue";
 <template>
     <div class="main">
         <Jumbo />
+        <Banner />
         <Modern />
         <Numbers />
         <Recent />
