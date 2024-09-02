@@ -58,13 +58,6 @@ export default {
 <style lang="scss" scoped>
 @use "../style/partials/vars" as *;
 
-.bg-grey {
-    background-color: $grey;
-}
-
-.bg-white{
-    background-color: $white;
-}
 
 hr {
     color: $yellow;

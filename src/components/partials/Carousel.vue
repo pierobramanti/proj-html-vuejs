@@ -28,9 +28,6 @@ export default {
 <style lang="scss" scoped>
 @use "../style/partials/vars" as *;
 
-.color-yellow{
-    color: $yellow;
-}
 
 .bg-carousel {
     background-image: url("../../assets/img/home-parallax-144609983.jpg");
