@@ -1,29 +1,10 @@
 <script>
+import { items } from "../data/components"
+
 export default {
   data() {
     return {
-      items: [
-        {
-          icon: "fa-solid fa-building-columns",
-          number: 3534,
-          text: "Planning Application",
-        },
-        {
-          icon: "fa-solid fa-building",
-          number: 896,
-          text: "Completed project",
-        },
-        {
-          icon: "fa-solid fa-users-line",
-          number: 172,
-          text: "Trained Professional",
-        },
-        {
-          icon: "fa-solid fa-globe",
-          number: 19,
-          text: "International Office",
-        },
-      ],
+      items,
     };
   },
 };

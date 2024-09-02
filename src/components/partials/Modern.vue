@@ -1,37 +1,10 @@
 <script>
+import { cards } from "../data/components"
+
 export default {
   data() {
     return {
-      cards: [
-        {
-          icon: "fa-regular fa-building",
-          title: "Buildings",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos natus ex maiores.",
-          overlayTitle: "Artfully Crafted",
-          overlayText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          icon: "fa-solid fa-arrows-rotate",
-          title: "Renovate",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos natus ex maiores.",
-          overlayTitle: "Artfully Crafted",
-          overlayText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          icon: "fa-solid fa-house",
-          title: "Construct",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos natus ex maiores.",
-          overlayTitle: "Artfully Crafted",
-          overlayText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          icon: "fa-solid fa-truck-moving",
-          title: "Deliver",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos natus ex maiores.",
-          overlayTitle: "Artfully Crafted",
-          overlayText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
+        cards,
     };
   },
 };

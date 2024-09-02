@@ -1,37 +1,9 @@
 <script>
+import { coreValues } from "../data/components"
 export default {
   data() {
     return {
-      coreValues: [
-        {
-          id: 1,
-          icon: 'fa-solid fa-house',
-          bgColor: 'bg-blue',
-          title: 'Great Services',
-          text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-        },
-        {
-          id: 2,
-          icon: 'fa-solid fa-gear',
-          bgColor: 'bg-violet',
-          title: 'Highest Standard',
-          text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-        },
-        {
-          id: 3,
-          icon: 'fa-solid fa-users-line',
-          bgColor: 'bg-terracotta',
-          title: 'Professional Team',
-          text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-        },
-        {
-          id: 4,
-          icon: 'fa-regular fa-lightbulb',
-          bgColor: 'bg-green',
-          title: 'Creative Solutions',
-          text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-        },
-      ],
+      coreValues,
     };
   },
 };
