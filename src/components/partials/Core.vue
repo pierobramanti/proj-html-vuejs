@@ -76,9 +76,6 @@ export default {
 <style lang="scss" scoped>
 @use "../style/partials/vars" as *;
 
-.bg-grey {
-  background-color: $grey;
-}
 
 hr {
   width: 150px;
@@ -103,21 +100,6 @@ hr {
   background-color: $yellow;
 }
 
-.bg-blue {
-  background-color: $blue;
-}
-
-.bg-violet {
-  background-color: $violet;
-}
-
-.bg-terracotta {
-  background-color: $terracotta;
-}
-
-.bg-green {
-  background-color: $green;
-}
 
 .text-white {
   color: $white;
