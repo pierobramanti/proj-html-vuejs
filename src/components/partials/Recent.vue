@@ -35,11 +35,35 @@ export default {
                         <p class="text-white fs-6">Commercial</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 position-relative">
                     <img src="../../assets/img/project1-featured-294276386-600x600.jpg" class="img-fluid" alt="project 2">
+                    <div class="hover-overlay d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="icon-container d-flex gap-3 mb-3">
+                            <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                <a href=""><i class="fa-solid fa-link color-yellow"></i></a>
+                            </div>
+                            <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                <a href=""><i class="fa-solid fa-magnifying-glass color-yellow"></i></a>
+                            </div>
+                        </div>
+                        <h2 class="text-white fs-4">Florida Health facility</h2>
+                        <p class="text-white fs-6">Commercial</p>
+                    </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 position-relative">
                     <img src="../../assets/img/project3-featured-189023420-600x600.jpg" class="img-fluid" alt="project 3">
+                    <div class="hover-overlay d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="icon-container d-flex gap-3 mb-3">
+                            <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                <a href=""><i class="fa-solid fa-link color-yellow"></i></a>
+                            </div>
+                            <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                <a href=""><i class="fa-solid fa-magnifying-glass color-yellow"></i></a>
+                            </div>
+                        </div>
+                        <h2 class="text-white fs-4">Florida Health facility</h2>
+                        <p class="text-white fs-6">Commercial</p>
+                    </div>
                 </div>
             </div>
         </div>
