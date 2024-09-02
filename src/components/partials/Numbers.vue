@@ -10,16 +10,24 @@ export default {
             <div class="row min-vh-100 d-flex justify-content-center align-items-center">
                 <div class="col-12 d-flex justify-content-center align-items-center text-center gap-3">
                     <div class="col-4 border">
-                        <i class="fa-solid fa-building-columns"></i>
+                        <i class="fa-solid fa-building-columns color-yellow fs-1"></i>
+                        <h3 class="color-yellow">3534</h3>
+                        <p class="text-uppercase text-white">Planning Application</p>
                     </div>
                     <div class="col-4 border">
-                        <i class="fa-solid fa-building"></i>
+                        <i class="fa-solid fa-building color-yellow fs-1"></i>
+                        <h3 class="color-yellow">896</h3>
+                        <p class="text-uppercase text-white">Completed project</p>
                     </div>
                     <div class="col-4 border">
-                        <i class="fa-solid fa-users-line"></i>
+                        <i class="fa-solid fa-users-line color-yellow fs-1"></i>
+                        <h3 class="color-yellow">172</h3>
+                        <p class="text-uppercase text-white">Trained Professional</p>
                     </div>
                     <div class="col-4 border">
-                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-solid fa-globe color-yellow fs-1"></i>
+                        <h3 class="color-yellow">19</h3>
+                        <p class="text-uppercase text-white">International Office</p>
                     </div>
                 </div>
             </div>
