@@ -3,11 +3,27 @@ export default {
     data() {
         return {
             menuItems: [
-                { label: "Home", link: "#", isActive: true },
-                { label: "About", link: "#", isActive: false },
-                { label: "Services", link: "#", isActive: false },
-                { label: "work", link: "#", isActive: false },
-                { label: "articles", link: "#", isActive: false }
+                
+                { label: "Home", 
+                  link: "#", 
+                  isActive: true 
+                },
+                { label: "About",
+                  link: "#", 
+                  isActive: false 
+                },
+                { label: "Services",
+                  link: "#", 
+                  isActive: false 
+                },
+                { label: "work",
+                  link: "#", 
+                  isActive: false 
+                },
+                { label: "articles",
+                  link: "#",
+                  isActive: false 
+                }
             ]
         }
     }
