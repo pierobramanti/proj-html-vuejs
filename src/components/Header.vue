@@ -1,30 +1,9 @@
 <script>
+import { menuItems } from "../../src/components/data/components"
 export default {
     data() {
         return {
-            menuItems: [
-                
-                { label: "Home", 
-                  link: "#", 
-                  isActive: true 
-                },
-                { label: "About",
-                  link: "#", 
-                  isActive: false 
-                },
-                { label: "Services",
-                  link: "#", 
-                  isActive: false 
-                },
-                { label: "work",
-                  link: "#", 
-                  isActive: false 
-                },
-                { label: "articles",
-                  link: "#",
-                  isActive: false 
-                }
-            ]
+            menuItems,
         }
     }
 }
