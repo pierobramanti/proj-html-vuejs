@@ -9,9 +9,9 @@ export default {
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-4 mt-4">
-                <h3 class=" fs-1 fw-lighter">Trusted Partners</h3>
-                <hr class="fw-bolder mt-2 mb-4">
-                <h5 class="fonts-10 mt-2 mb-4 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h5>
+                <h3 class="fs-3 fw-semibold mb-2">Trusted Partners</h3>
+                <hr class="fw-bolder mb-3">
+                <h5 class="fs-6 mt-2 mb-4 lh-lg text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio reprehenderit quam iusto,<br>sint nulla omnis ex debitis nisi aspernatur possimus repellendus adipisci</h5>
             </div>
             <div class="d-flex align-items-center justify-content-around mt-2 mb-4">
                 <div class="d-flex align-items-center">
