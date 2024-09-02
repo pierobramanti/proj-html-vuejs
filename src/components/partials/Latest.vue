@@ -18,12 +18,18 @@ export default {
                         <div class="image-container position-relative">
                             <img src="../../assets/img/blog-post-134132600-1200x723.jpg" class="card-img" alt="...">
                             <div class="hover-overlay d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="icon-container d-flex gap-3 mb-3">
-                                    <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
-                                        <i class="fa-solid fa-link fs-6 color-yellow"></i>
-                                    </div>
-                                    <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
-                                        <i class="fa-solid fa-magnifying-glass color-yellow fs-6"></i>
+                                <div class="icon-container mb-3 d-flex">
+                                    <div class="px-4 py-4">
+                                       <div class="d-flex align-items-center justify-content-center text-center gap-2 mb-2 mt-2">
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle gap-1">
+                                            <i class="fa-solid fa-link fs-6 color-yellow"></i>
+                                        </div>
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="fa-solid fa-magnifying-glass color-yellow fs-6"></i>
+                                        </div>
+                                       </div>
+                                        <h4 class="text-white fs-6">Redeveloping Florida's <br> Southern Cost</h4>
+                                        <p class="text-white fonts-9"> Architecture, Buildings, Construction, News</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,6 +44,22 @@ export default {
                     <div class="custom-card">
                         <div class="image-container position-relative">
                             <img src="../../assets/img/blog-post-92486644-1200x723.jpg" class="card-img" alt="...">
+                            <div class="hover-overlay d-flex flex-column align-items-center justify-content-center text-center">
+                                <div class="icon-container mb-3 d-flex">
+                                    <div class="px-4 py-4">
+                                       <div class="d-flex align-items-center justify-content-center text-center gap-2 mb-2 mt-2">
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle gap-1">
+                                            <i class="fa-solid fa-link fs-6 color-yellow"></i>
+                                        </div>
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="fa-solid fa-magnifying-glass color-yellow fs-6"></i>
+                                        </div>
+                                       </div>
+                                        <h4 class="text-white fs-6">Redeveloping Florida's <br> Southern Cost</h4>
+                                        <p class="text-white fonts-9"> Architecture, Buildings, Construction, News</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-body bg-white">
                             <h4 class="card-title">How We manage Large construction Project</h4>
@@ -49,6 +71,22 @@ export default {
                     <div class="custom-card">
                         <div class="image-container position-relative">
                             <img src="../../assets/img/blog-post-332773904-1200x723.jpg" class="card-img" alt="...">
+                            <div class="hover-overlay d-flex flex-column align-items-center justify-content-center text-center">
+                                <div class="icon-container mb-3 d-flex">
+                                    <div class="px-4 py-4">
+                                       <div class="d-flex align-items-center justify-content-center text-center gap-2 mb-2 mt-2">
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle gap-1">
+                                            <i class="fa-solid fa-link fs-6 color-yellow"></i>
+                                        </div>
+                                        <div class="icon-circle d-flex align-items-center justify-content-center rounded-circle">
+                                            <i class="fa-solid fa-magnifying-glass color-yellow fs-6"></i>
+                                        </div>
+                                       </div>
+                                        <h4 class="text-white fs-6">Redeveloping Florida's <br> Southern Cost</h4>
+                                        <p class="text-white fonts-9"> Architecture, Buildings, Construction, News</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-body bg-white">
                             <h4 class="card-title">Future Proving a modern Home</h4>
